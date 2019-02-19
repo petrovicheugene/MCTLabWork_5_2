@@ -4,8 +4,8 @@
 # in common.pri will be defined VERSION, TARGET, DEBUG SETTINGS
 #  global APP DEFINES
 #-------------------------------------------------
-include( ../../common.pri )
-include( ../../app.pri )
+include( ./common.pri )
+include( ./app.pri )
 
 TEMPLATE = app
 CONFIG += console c++11
